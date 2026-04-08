@@ -1,0 +1,17 @@
+# DokuWiki runtime files
+dokuwiki-config/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
