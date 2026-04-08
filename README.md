@@ -27,7 +27,7 @@ so your AI remembers everything, predicts problems, and gives context-rich answe
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/tagent/openclaw-wiki-brain.git
+git clone https://github.com/aisenseapi/openclaw-wiki-brain.git
 cd openclaw-wiki-brain
 
 # 2. Start DokuWiki
@@ -241,4 +241,4 @@ MIT - Share freely, give credit.
 ---
 
 **Made with ❤️ for better AI memory**  
-*Created by [tagent](https://github.com/tagent) using OpenClaw*
+*Created by [aisenseapi](https://github.com/aisenseapi) using OpenClaw*
