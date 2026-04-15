@@ -50,11 +50,11 @@ echo "0 * * * * python3 ~/dokuwiki/scripts/update-wiki.py" | crontab -
 
 ```
 ┌─────────────────────────────────────────┐
-│         OpenClaw AI Assistant          │
-│         (You are here)                   │
-└─────────────────┬─────────────────────────┘
+│         OpenClaw AI Assistant           │
+│         (You are here)                  │
+└─────────────────┬───────────────────────┘
                   │
-    ┌─────────────┴─────────────┐
+    ┌─────────────┴───────────┐
     │                         │
     ▼                         ▼
 ┌─────────────┐        ┌─────────────┐
@@ -162,14 +162,14 @@ Spark
 
 ## Scripts Included
 
-| Script | Purpose |
-|--------|---------|
-| `update-wiki.py` | Main automation - runs hourly |
-| `wiki-client.py` | OpenClaw integration (XML-RPC + file fallback) |
-| `wiki-search.py` | Search across all pages |
-| `wiki-show.py` | Display a specific page |
-| `wiki-list.py` | List all pages |
-| `fulltest-to-wiki.py` | Log test results |
+| Script | Purpose      |
+|--------|--------------|
+| `update-wiki.py`      | Main automation - runs hourly                  |
+| `wiki-client.py`      | OpenClaw integration (XML-RPC + file fallback) |
+| `wiki-search.py`      | Search across all pages                        |
+| `wiki-show.py`        | Display a specific page                        |
+| `wiki-list.py`        | List all pages                                 |
+| `fulltest-to-wiki.py` | Log test results                               |
 
 ---
 
@@ -190,14 +190,14 @@ Add these to your `COMMANDS.md`:
 
 ## Why DokuWiki?
 
-| Feature | Benefit |
-|---------|---------|
-| **File-based** | No database, simple backups |
-| **Fast** | Direct file reads for OpenClaw |
-| **Portable** | Copy files = move wiki |
-| **Versioned** | Git-compatible |
-| **Searchable** | Built-in search + AI search |
-| **No plugins needed** | Simple, maintainable |
+| Feature | Benefit     |
+|---------|-------------|
+| **File-based**        | No database, simple backups    |
+| **Fast**              | Direct file reads for OpenClaw |
+| **Portable**          | Copy files = move wiki         |
+| **Versioned**         | Git-compatible                 |
+| **Searchable**        | Built-in search + AI search    |
+| **No plugins needed** | Simple, maintainable           |
 
 ---
 
